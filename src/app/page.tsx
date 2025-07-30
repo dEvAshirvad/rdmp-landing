@@ -234,24 +234,24 @@ export default function Home() {
 							<CardContent>
 								<div className="grid grid-cols-3 gap-4 text-center">
 									<Link
-										href={"/login"}
+										href={"https://shresth.rdmp.in/login"}
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">श्रेष्ठ</h3>
 									</Link>
 									<Link
-										href={"http://69.62.77.63:3036/login"}
+										href={"https://rahat.rdmp.in/login"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">राहत</h3>
 									</Link>
 									<Link
-										href={"http://69.62.77.63:3002"}
+										href={"https://feedback.rdmp.in"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">आओ खुद को परखें</h3>
 									</Link>
 									<Link
-										href={"http://69.62.77.63:3012"}
+										href={"https://suchna.rdmp.in"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">
@@ -259,7 +259,7 @@ export default function Home() {
 										</h3>
 									</Link>
 									<Link
-										href={"http://69.62.77.63:8081/login"}
+										href={"https://sushasan.rdmp.in"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">
@@ -267,7 +267,7 @@ export default function Home() {
 										</h3>
 									</Link>
 									<Link
-										href={"#"}
+										href={"https://urvi.rdmp.in"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">उर्वी</h3>
