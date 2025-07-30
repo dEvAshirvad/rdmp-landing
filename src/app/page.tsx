@@ -22,16 +22,20 @@ export default function Home() {
 						{/* Logos and Title */}
 						<div className="flex items-center space-x-4">
 							<div className="w-20 h-20">
-								<img
+								<Image
 									src="/images/bharat-sarkar-logo.png"
 									alt="Gov Logo"
+									width={80}
+									height={80}
 									className="object-contain drop-shadow-lg"
 								/>
 							</div>
 							<div className="w-20 h-20">
-								<img
+								<Image
 									src="/images/cg-logo.png"
 									alt="CG Logo"
+									width={80}
+									height={80}
 									className="object-contain drop-shadow-lg"
 								/>
 							</div>
@@ -64,9 +68,11 @@ export default function Home() {
 								<div key={officer.name} className="text-center">
 									<div
 										className={`w-14 h-14 rounded-full border-4 border-${officer.border} mx-auto mb-2 overflow-hidden shadow-lg`}>
-										<img
+										<Image
 											src={`/images/${officer.img}`}
 											alt={officer.name}
+											width={56}
+											height={56}
 											className="w-full h-full object-cover"
 										/>
 									</div>
