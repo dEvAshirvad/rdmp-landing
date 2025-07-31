@@ -41,7 +41,7 @@ export default function Home() {
 							</div>
 							<div>
 								<h1 className="text-2xl font-bold text-blue-900 drop-shadow-md">
-									Raipur Departmental & Coordination Portal
+									Raipur Departmental Monitoring Portal
 								</h1>
 								<p className="text-sm text-red-700 font-medium drop-shadow-sm">
 									District Administration Raipur
