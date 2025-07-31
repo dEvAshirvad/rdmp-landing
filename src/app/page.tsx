@@ -226,6 +226,28 @@ export default function Home() {
 								</div>
 							</CardContent>
 						</Card>
+						<Card className="bg-white shadow-lg border-l-4 border-emerald-600">
+							<CardHeader className="bg-gradient-to-r from-emerald-700 to-emerald-800 text-white">
+								<CardTitle className="text-lg">Message from SP</CardTitle>
+							</CardHeader>
+							<CardContent className="p-4 space-y-3">
+								<div className="flex gap-4">
+									<Image
+										src={"/images/sp.jpeg"}
+										alt="SP"
+										width={100}
+										height={100}
+										className="size-32 border-4 border-emerald-600"></Image>
+									<p className="leading-snug">
+										As the Superintendent of Police, I am committed to ensuring
+										the safety and security of the people of Raipur. This portal
+										serves as a platform for citizens to report any concerns or
+										issues, ensuring a responsive and transparent police force.
+										Together, we are building a safer and more secure Raipur.
+									</p>
+								</div>
+							</CardContent>
+						</Card>
 
 						{/* Location Info */}
 						<Card className="bg-gradient-to-br from-amber-50 to-red-50 border-l-4 border-amber-600">
