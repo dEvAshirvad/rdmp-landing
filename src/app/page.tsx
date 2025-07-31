@@ -64,6 +64,18 @@ export default function Home() {
 									img: "cm-vishnu-deo-sai.png",
 									border: "red-800",
 								},
+								{
+									name: "Kedar Nath Kashyap",
+									title: "Hon. MP, Raipur",
+									img: "mp.jpeg",
+									border: "red-800",
+								},
+								{
+									name: "Brijmohan Agrawal",
+									title: "Hon. MLA, Raipur",
+									img: "mla.jpeg",
+									border: "red-800",
+								},
 							].map((officer) => (
 								<div key={officer.name} className="text-center">
 									<div
