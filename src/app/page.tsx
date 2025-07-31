@@ -66,13 +66,13 @@ export default function Home() {
 								},
 								{
 									name: "Kedar Nath Kashyap",
-									title: "Hon. MP, Raipur",
+									title: "Hon. Ministry of F&CC, Raipur",
 									img: "mp.jpeg",
 									border: "red-800",
 								},
 								{
 									name: "Brijmohan Agrawal",
-									title: "Hon. MLA, Raipur",
+									title: "Hon. MP, Raipur",
 									img: "mla.jpeg",
 									border: "red-800",
 								},
@@ -299,7 +299,7 @@ export default function Home() {
 										</h3>
 									</Link>
 									<Link
-										href={"https://sushasan.rdmp.in"}
+										href={"http://195.35.7.10:8081"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">
