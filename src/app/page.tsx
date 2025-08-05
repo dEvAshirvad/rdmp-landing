@@ -312,6 +312,12 @@ export default function Home() {
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
 										<h3 className="text-3xl font-bold mb-2">उर्वी</h3>
 									</Link>
+									<Link
+										href={"http://195.35.7.10/login"}
+										target="_blank"
+										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
+										<h3 className="text-3xl font-bold mb-2">अटल पोर्टल</h3>
+									</Link>
 								</div>
 							</CardContent>
 						</Card>
