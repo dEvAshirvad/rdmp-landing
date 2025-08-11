@@ -5,7 +5,6 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import NewsSection from "@/components/news-section";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -101,53 +100,6 @@ export default function Home() {
 				</div>
 			</header>
 
-			{/* Marquee Banner */}
-			<div className="bg-gradient-to-r from-amber-600 via-red-700 to-amber-600 text-white shadow-lg border-b-2 border-amber-400">
-				<div className="flex items-center">
-					<div className="bg-emerald-800 px-6 py-4 font-bold text-sm flex items-center space-x-2 shadow-lg">
-						<span className="text-amber-300">🏛️</span>
-						<span>CG GOVERNMENT SCHEMES</span>
-					</div>
-					<div className="flex-1 py-4 overflow-hidden">
-						<div className="animate-marquee whitespace-nowrap text-sm font-medium">
-							{[
-								[
-									"मुख्यमंत्री कन्या विवाह योजना",
-									"Financial assistance for girl child marriage",
-								],
-								[
-									"राजीव गांधी किसान न्याय योजना",
-									"Direct cash transfer to farmers",
-								],
-								["गोधन न्याय योजना", "Cow dung procurement scheme"],
-								["सुराजी गांव योजना", "Rural development program"],
-								[
-									"मुख्यमंत्री स्लम स्वास्थ्य योजना",
-									"Healthcare for slum dwellers",
-								],
-								["छत्तीसगढ़ मितान योजना", "Doorstep service delivery"],
-								["मुख्यमंत्री वृक्ष संपदा योजना", "Tree wealth scheme"],
-								["दाई-दीदी क्लिनिक योजना", "Women healthcare initiative"],
-								["छत्तीसगढ़ धान बोनस योजना", "Paddy bonus scheme"],
-								[
-									"मुख्यमंत्री युवा उद्यमी योजना",
-									"Youth entrepreneurship program",
-								],
-							].map(([title, desc], idx) => (
-								<span key={idx} className="mx-8">
-									<span className="text-amber-300 font-bold">{title}</span> -{" "}
-									{desc}
-								</span>
-							))}
-						</div>
-					</div>
-					<div className="bg-emerald-800 px-4 py-4 text-xs text-center">
-						<div className="text-amber-300 font-bold">Apply Online</div>
-						<div>cgstate.gov.in</div>
-					</div>
-				</div>
-			</div>
-
 			{/* Main Content */}
 			<div className="w-full max-w-[85rem] mx-auto px-4 py-8">
 				<div className="flex gap-6">
@@ -205,6 +157,30 @@ export default function Home() {
 						</Card>
 						<Card className="bg-white shadow-lg border-l-4 border-emerald-600">
 							<CardHeader className="bg-gradient-to-r from-emerald-700 to-emerald-800 text-white">
+								<CardTitle className="text-lg">
+									Message from Additional Collector
+								</CardTitle>
+							</CardHeader>
+							<CardContent className="p-4 space-y-3">
+								<div className="flex gap-4">
+									<Image
+										src={"/addl-collector.jpg"}
+										alt="Collector"
+										width={100}
+										height={100}
+										className="size-32 border-4 border-emerald-600"></Image>
+									<p className="leading-snug">
+										As the Additional Collector, I am committed to ensuring
+										transparent and efficient governance. Our portal serves as a
+										bridge between citizens and government services, providing
+										easy access to various schemes and projects. Together, we
+										are building a more inclusive and prosperous Raipur.
+									</p>
+								</div>
+							</CardContent>
+						</Card>
+						<Card className="bg-white shadow-lg border-l-4 border-emerald-600">
+							<CardHeader className="bg-gradient-to-r from-emerald-700 to-emerald-800 text-white">
 								<CardTitle className="text-lg">Message from CEO</CardTitle>
 							</CardHeader>
 							<CardContent className="p-4 space-y-3">
@@ -246,15 +222,6 @@ export default function Home() {
 										Together, we are building a safer and more secure Raipur.
 									</p>
 								</div>
-							</CardContent>
-						</Card>
-
-						{/* Location Info */}
-						<Card className="bg-gradient-to-br from-amber-50 to-red-50 border-l-4 border-amber-600">
-							<CardContent className="p-4 text-center">
-								<h3 className="font-bold text-amber-800 mb-2">राजधानी</h3>
-								<p className="text-2xl font-bold text-red-800">रायपुर</p>
-								<p className="text-sm text-amber-700">Capital City</p>
 							</CardContent>
 						</Card>
 					</div>
@@ -323,7 +290,6 @@ export default function Home() {
 						</Card>
 
 						{/* News Section */}
-						<NewsSection />
 					</div>
 				</div>
 			</div>
@@ -374,7 +340,8 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="border-t border-slate-700 mt-8 pt-4 text-center text-sm text-slate-400">
-					&copy; 2024 District Administration Raipur. All rights reserved.
+					&copy; 2024 District Administration Raipur. All rights reserved. |
+					Developed by Team NIT Raipur
 				</div>
 			</footer>
 		</div>
