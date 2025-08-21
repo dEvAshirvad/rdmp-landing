@@ -246,6 +246,11 @@ export default function Home() {
 										<h3 className="text-3xl font-bold mb-2">श्रेष्ठ</h3>
 									</Link>
 									<Link
+										href={"http://69.62.77.63:6030/login"}
+										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
+										<h3 className="text-3xl font-bold mb-2">श्रेष्ठ v2</h3>
+									</Link>
+									<Link
 										href={"https://rahat.rdmp.in/login"}
 										target="_blank"
 										className="border-2 hover:border-amber-600 hover:shadow-lg transition-all duration-300 hover:scale-105 rounded-lg aspect-square flex flex-col bg-background items-center justify-center p-4">
